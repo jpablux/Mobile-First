@@ -1,0 +1,20 @@
+.benefits-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 820px;
+    margin: 0 auto;
+}
+.plans-container--slider{
+justify-content: center;
+}
+
+.main-tables-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.5rem;
+    width: 820px;
+    margin: 62px auto;
+}
