@@ -33,7 +33,7 @@ header{
     min-width: 320px;
     height: 294px;
     text-align: center;
-    background: linear-gradient(207.8deg, var(--warm_black), var(--bitcoin_orange));
+    background: var(--warm_black);
 }
 
 header img{
@@ -81,16 +81,22 @@ header img{
     margin-right: auto;
     top: 270px;
     display: block;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 700;
     color: var(--warm_black);
     text-decoration: none;
-    background: white;
+    background-color: var(--bitcoin_orange);
+    color: var(--white);
     padding: 12px 16px;
     border-radius: 4px;
     width: 229px;
     height: 48px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    transition: .3s;
+}
+
+.header--button:hover{
+    background-color: var(--secondary_blue);
 }
 
 .header--button span{
@@ -293,7 +299,13 @@ header img{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     background: var(--warm_black_1);
     padding: 16px;
+    transition: 0.5s;
 
+}
+
+.benefit-card:hover{
+    background-color: var(--warm_black);
+    box-shadow: 0px 4px 8px rgba(250, 133, 0, 0.904);
 }
 
 
@@ -358,10 +370,10 @@ header img{
 
 .ad-image-background .ad-title{
     text-align: center;
-    font-size:24px;
-    line-height: 26px;
+    font-size:64px;
+    line-height: 64px;
     font-weight: 700;
-    padding-top: 64px;
+    padding-top: 150px;
     color: var(--white);
     
 }
